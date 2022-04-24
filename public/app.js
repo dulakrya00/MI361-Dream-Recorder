@@ -5,7 +5,7 @@
 
     var serverUrl = "/",
         comments = [],
-        pusher = new Pusher('<your-api-key>', {
+        pusher = new Pusher("7ed3411d765cd60f390c", {
           cluster: 'ap2',
           encrypted: true
         }),
